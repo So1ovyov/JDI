@@ -37,6 +37,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B23AC87A25BB206D00105B53 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B23E6F8825BAF95C009AC2C6 /* AppDelegate.swift */,
+				B23E6F8A25BAF95C009AC2C6 /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		B23AC87B25BB208300105B53 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B23E6FA225BAF9DC009AC2C6 /* TasksViewController.swift */,
+				B23E6F9625BAF95D009AC2C6 /* LaunchScreen.storyboard */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
 		B23E6F7C25BAF95C009AC2C6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +74,9 @@
 		B23E6F8725BAF95C009AC2C6 /* JDI */ = {
 			isa = PBXGroup;
 			children = (
-				B23E6F8825BAF95C009AC2C6 /* AppDelegate.swift */,
-				B23E6F8A25BAF95C009AC2C6 /* SceneDelegate.swift */,
-				B23E6FA225BAF9DC009AC2C6 /* TasksViewController.swift */,
+				B23AC87A25BB206D00105B53 /* Support */,
+				B23AC87B25BB208300105B53 /* View Controller */,
 				B23E6F9425BAF95D009AC2C6 /* Assets.xcassets */,
-				B23E6F9625BAF95D009AC2C6 /* LaunchScreen.storyboard */,
 				B23E6F9925BAF95D009AC2C6 /* Info.plist */,
 				B23E6F9125BAF95C009AC2C6 /* JDI.xcdatamodeld */,
 			);
