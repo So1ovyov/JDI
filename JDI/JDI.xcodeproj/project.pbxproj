@@ -13,6 +13,7 @@
 		B23E6F9525BAF95D009AC2C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23E6F9425BAF95D009AC2C6 /* Assets.xcassets */; };
 		B23E6F9825BAF95D009AC2C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23E6F9625BAF95D009AC2C6 /* LaunchScreen.storyboard */; };
 		B23E6FA325BAF9DC009AC2C6 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23E6FA225BAF9DC009AC2C6 /* TasksViewController.swift */; };
+		B2F2F2C625BD87B500C1716B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2F2C525BD87B500C1716B /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B23E6F9725BAF95D009AC2C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B23E6F9925BAF95D009AC2C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B23E6FA225BAF9DC009AC2C6 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		B2F2F2C525BD87B500C1716B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				B23E6F8825BAF95C009AC2C6 /* AppDelegate.swift */,
+				B2F2F2C525BD87B500C1716B /* DataManager.swift */,
 				B23E6F8A25BAF95C009AC2C6 /* SceneDelegate.swift */,
 			);
 			path = Support;
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B23E6F8925BAF95C009AC2C6 /* AppDelegate.swift in Sources */,
+				B2F2F2C625BD87B500C1716B /* DataManager.swift in Sources */,
 				B23E6FA325BAF9DC009AC2C6 /* TasksViewController.swift in Sources */,
 				B23E6F8B25BAF95C009AC2C6 /* SceneDelegate.swift in Sources */,
 				B23E6F9325BAF95C009AC2C6 /* JDI.xcdatamodeld in Sources */,

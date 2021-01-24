@@ -12,6 +12,8 @@ class TasksViewController: UITableViewController {
     
     private let cellID = "cell"
     
+    let dataManager = DataManager()
+    
     private var context: NSManagedObjectContext!
     
     private var tasks: [Task] = []
@@ -20,7 +22,7 @@ class TasksViewController: UITableViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         
-        context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        context = dataManager.persistentContainer.viewContext
         
         setupTableView()
         setupNavigationBar()
